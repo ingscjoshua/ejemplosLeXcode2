@@ -17,11 +17,18 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Caracola" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="weq-bJ-Dci">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="D7J-2I-S3c" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="130" id="2jC-OT-YlQ"/>
+                            <constraint firstItem="weq-bJ-Dci" firstAttribute="top" secondItem="3" secondAttribute="top" constant="246" id="Cph-Iw-q6u"/>
                             <constraint firstItem="D7J-2I-S3c" firstAttribute="top" secondItem="3" secondAttribute="top" constant="137" id="Itc-Yq-gIH"/>
+                            <constraint firstItem="weq-bJ-Dci" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="ZpB-n8-wbs"/>
                         </constraints>
                     </view>
                 </viewController>
